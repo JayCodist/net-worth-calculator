@@ -4,6 +4,9 @@ user_email = "muse_nwc_email";
 liability_value = "muse_nwc_liability";
 asset_value = "muse_nwc_asset";
 
+if (!localStorage.getItem(auth_token))
+	location.href = "index.html";
+
 document.querySelector(".general-header #name-plate")
 	.appendChild(document.createTextNode(`${window.localStorage.getItem(user_name)}`));
 
