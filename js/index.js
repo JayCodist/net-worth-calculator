@@ -2,7 +2,7 @@ auth_token = "muse_nwc_auth_token";
 user_name = "muse_nwc_name";
 user_email = "muse_nwc_email";
 //const backendUrl = "http://localhost:3000";	// For local testing
-const backendUrl = "https://muses-nwc-api.herokuapp.com";
+const backendUrl = "https://net-worth-calc-api.herokuapp.com";
 
 // Ping heroku backend host. It sleeps after inactive interval and takes around 12 seconds to wake
 // So, hasten the process at page load

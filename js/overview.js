@@ -5,7 +5,7 @@ overview_sort = "muse_nwc_sort";
 liability_value = "muse_nwc_liability";
 asset_value = "muse_nwc_asset";
 
-const backendUrl = "https://muses-nwc-api.herokuapp.com";
+const backendUrl = "https://net-worth-calc-api.herokuapp.com";
 
 
 const table = document.querySelector("table");

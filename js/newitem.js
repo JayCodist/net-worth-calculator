@@ -3,7 +3,7 @@ overview_mode = "muse_nwc_overview_mode";
 item_edit = "muse_nwc_item_edit";
 
 
-const backendUrl = "https://muses-nwc-api.herokuapp.com";
+const backendUrl = "https://net-worth-calc-api.herokuapp.com";
 let editItem = JSON.parse(localStorage.getItem(item_edit));
 localStorage.removeItem(item_edit);
 
