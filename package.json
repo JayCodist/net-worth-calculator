@@ -1,7 +1,7 @@
 {
-  "name": "muses-networth-calculator",
+  "name": "net-worth-calculator",
   "version": "1.0.0",
-  "description": "This is one of the stage 3 projects built by Team Muses. A Net Worth Calculator web app.",
+  "description": "A Net Worth Calculator web app",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.comp.css",
@@ -12,23 +12,13 @@
     "devserver": "live-server --browser=firefox",
     "start": "npm-run-all --parallel devserver watch:sass"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Eronmmer/muses-networth-calculator.git"
-  },
   "keywords": [
     "Net",
     "Worth",
-    "Calculator",
-    "HNG",
-    "Muses"
+    "Calculator"
   ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Eronmmer/muses-networth-calculator/issues"
-  },
-  "homepage": "https://github.com/Eronmmer/muses-networth-calculator#readme",
   "devDependencies": {
     "autoprefixer": "^9.5.0",
     "concat": "^1.0.3",
